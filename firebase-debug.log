@@ -1,0 +1,238 @@
+[debug] [2023-12-15T17:34:11.008Z] ----------------------------------------------------------------------
+[debug] [2023-12-15T17:34:11.009Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luizb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-15T17:34:11.010Z] CLI Version:   13.0.2
+[debug] [2023-12-15T17:34:11.010Z] Platform:      win32
+[debug] [2023-12-15T17:34:11.010Z] Node Version:  v18.17.1
+[debug] [2023-12-15T17:34:11.011Z] Time:          Fri Dec 15 2023 14:34:11 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-12-15T17:34:11.011Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-15T17:34:11.017Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-15T17:34:11.018Z] > authorizing via signed-in user (luizbr080604@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\luizb\OneDrive\Desktop\luiz\blogDev_f3m
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-15T17:34:38.119Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-15T17:34:38.897Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-15T17:34:38.897Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project miniblog-7f7b7 (miniblog) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-15T17:34:42.504Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/miniblog-7f7b7 [none]
+[debug] [2023-12-15T17:34:42.991Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/miniblog-7f7b7 200
+[debug] [2023-12-15T17:34:42.991Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/miniblog-7f7b7 {"projectId":"miniblog-7f7b7","projectNumber":"702363799612","displayName":"miniblog","name":"projects/miniblog-7f7b7","resources":{"hostingSite":"miniblog-7f7b7"},"state":"ACTIVE","etag":"1_73c040f1-7509-4eca-8315-f85922b95d56"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-12-15T17:35:00.374Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-15T17:35:00.493Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-15T17:35:00.493Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.1","browserURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\luizb\OneDrive\Desktop\luiz\blogDev_f3m 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=933582209&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-15T17:35:12.607Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-12-15T17:35:12.608Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-12-15T17:35:12.951Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-12-15T17:35:12.952Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-12-15T17:35:12.972Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-12-15T17:35:13.299Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-12-15T17:35:13.299Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"luizrodd","id":98992387,"node_id":"U_kgDOBeaBAw","avatar_url":"https://avatars.githubusercontent.com/u/98992387?v=4","gravatar_id":"","url":"https://api.github.com/users/luizrodd","html_url":"https://github.com/luizrodd","followers_url":"https://api.github.com/users/luizrodd/followers","following_url":"https://api.github.com/users/luizrodd/following{/other_user}","gists_url":"https://api.github.com/users/luizrodd/gists{/gist_id}","starred_url":"https://api.github.com/users/luizrodd/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/luizrodd/subscriptions","organizations_url":"https://api.github.com/users/luizrodd/orgs","repos_url":"https://api.github.com/users/luizrodd/repos","events_url":"https://api.github.com/users/luizrodd/events{/privacy}","received_events_url":"https://api.github.com/users/luizrodd/received_events","type":"User","site_admin":false,"name":"Luiz Felipe Rodrigues","company":null,"blog":"","location":"Matão, SP","email":null,"hireable":true,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":15,"following":20,"created_at":"2022-02-04T00:01:28Z","updated_at":"2023-12-14T18:02:52Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":104803,"collaborators":4,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as luizrodd 
+[info] 
+[debug] [2023-12-15T17:35:21.568Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:35:21.878Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2023-12-15T17:35:21.878Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-12-15T17:35:25.012Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:35:25.277Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2023-12-15T17:35:25.277Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-12-15T17:35:39.188Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:35:39.482Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-12-15T17:35:39.482Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-12-15T17:36:02.622Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:02.891Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:02.891Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:36:04.156Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:04.409Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:04.410Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:36:28.979Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:29.221Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:29.221Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:36:30.132Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:30.387Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:30.387Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:36:34.701Z] >>> [apiv2][query] GET https://api.github.com/repos/yes/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:34.943Z] <<< [apiv2][status] GET https://api.github.com/repos/yes/actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:34.943Z] <<< [apiv2][body] GET https://api.github.com/repos/yes/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:36:37.061Z] >>> [apiv2][query] GET https://api.github.com/repos/ok/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:36:37.304Z] <<< [apiv2][status] GET https://api.github.com/repos/ok/actions/secrets/public-key 401
+[debug] [2023-12-15T17:36:37.304Z] <<< [apiv2][body] GET https://api.github.com/repos/ok/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:03.272Z] >>> [apiv2][query] GET https://api.github.com/repos/yes/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:03.522Z] <<< [apiv2][status] GET https://api.github.com/repos/yes/actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:03.523Z] <<< [apiv2][body] GET https://api.github.com/repos/yes/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:04.290Z] >>> [apiv2][query] GET https://api.github.com/repos/yes/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:04.534Z] <<< [apiv2][status] GET https://api.github.com/repos/yes/actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:04.534Z] <<< [apiv2][body] GET https://api.github.com/repos/yes/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:09.294Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:09.640Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:09.640Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:09.668Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:09.916Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:09.916Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:09.922Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:10.148Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:10.158Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:10.158Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:10.372Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:10.394Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:10.394Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:10.578Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:10.612Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:10.612Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:10.763Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:10.814Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:10.814Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:10.899Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.011Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.011Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.029Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.132Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.133Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.136Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.271Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.272Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.353Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.388Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.388Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.556Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.607Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.607Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.681Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:11.811Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.812Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:11.921Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:11.921Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:38:50.793Z] >>> [apiv2][query] GET https://api.github.com/repos/create one/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:38:51.041Z] <<< [apiv2][status] GET https://api.github.com/repos/create one/actions/secrets/public-key 401
+[debug] [2023-12-15T17:38:51.041Z] <<< [apiv2][body] GET https://api.github.com/repos/create one/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:28.132Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:28.396Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:28.396Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:29.248Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:29.414Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:29.493Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:29.493Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:29.559Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:29.665Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:29.665Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:29.795Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:29.795Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:30.471Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:30.727Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:30.727Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:34.906Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.079Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.138Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.138Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.252Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.318Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.318Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.390Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.504Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.505Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.513Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.631Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.637Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.638Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.737Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.737Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.740Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.865Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.871Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.871Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:35.972Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:35.979Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:35.979Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.060Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.110Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.110Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.179Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.215Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.215Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.303Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.335Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.335Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.410Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.416Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.416Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.494Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.534Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.535Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.598Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.663Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.664Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.706Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.741Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.741Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.833Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:36.860Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.860Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.936Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:36.936Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:36.957Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:37.060Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:37.093Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:37.093Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:37.169Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:37.203Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:37.203Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:37.272Z] >>> [apiv2][query] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key type=owner
+[debug] [2023-12-15T17:39:37.295Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:37.295Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:37.407Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:37.407Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-12-15T17:39:37.528Z] <<< [apiv2][status] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key 401
+[debug] [2023-12-15T17:39:37.529Z] <<< [apiv2][body] GET https://api.github.com/repos/	FirebaseLoginPost/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
